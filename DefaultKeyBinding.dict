@@ -1,0 +1,27 @@
+//
+// ~/Library/KeyBindings/DefaultKeyBinding.dict
+// http://osxnotes.net/keybindings.html
+//
+// @ : Command
+// ^ : Ctrl
+// $ : Shift
+// ~ : Alt
+
+{
+  "@\Uf728" = deleteToEndOfParagraph:;
+    
+  /* home */
+  "\UF729"  = "moveToBeginningOfLine:";
+  "$\UF729" = "moveToBeginningOfLineAndModifySelection:";
+  "@\UF729" = "moveToBeginningOfDocument:";
+  
+  /* end */
+  "\UF72B"  = "moveToEndOfLine:";
+  "$\UF72B" = "moveToEndOfLineAndModifySelection:";
+  "@\UF72B" = "moveToEndOfDocument:"
+  
+  /* page up/down */
+  "\UF72C"  = "pageUp:";
+  "\UF72D"  = "pageDown:";
+
+}
